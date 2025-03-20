@@ -7,11 +7,11 @@ public class AuthenticationService {
 	
 	public boolean authenticate(String UserId,String Userpassword)
 	{
-		boolean isvalidusername=UserId.equalsIgnoreCase("Ram");
+		boolean isvalidusername=UserId.equalsIgnoreCase("Rama");
 		boolean isvaliduserpass=Userpassword.equalsIgnoreCase("Rama");
 		
 		
-		return isvalidusername&&isvaliduserpass;
+		return isvalidusername&&isvaliduserpass;//
 	}
 
 }
