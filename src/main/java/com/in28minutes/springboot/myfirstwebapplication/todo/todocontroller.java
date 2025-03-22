@@ -23,10 +23,16 @@ public class todocontroller {
 	public String Listalltodoes(ModelMap model)
 	{
  List<Todo> todos=	service.findbyname("Ramachandra");
-	model.addAttribute("todos", todos);
+	model.addAttribute("todoss", todos);
 		
 		return "ListTodos";
 	}
-	
+	@RequestMapping("Add-todo")
+	public String addtodo()
+	{
+ List<Todo> todos=	service.findbyname("Ramachandra");
+		
+		return "Todo";
+	}
 
 }

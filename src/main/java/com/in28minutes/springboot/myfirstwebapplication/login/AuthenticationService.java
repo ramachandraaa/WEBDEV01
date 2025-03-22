@@ -7,8 +7,8 @@ public class AuthenticationService {
 	
 	public boolean authenticate(String UserId,String Userpassword)
 	{
-		boolean isvalidusername=UserId.equalsIgnoreCase("Rama");
-		boolean isvaliduserpass=Userpassword.equalsIgnoreCase("Rama");
+		boolean isvalidusername=UserId.equalsIgnoreCase("Ram");
+		boolean isvaliduserpass=Userpassword.equalsIgnoreCase("Ram");
 		
 		
 		return isvalidusername&&isvaliduserpass;//

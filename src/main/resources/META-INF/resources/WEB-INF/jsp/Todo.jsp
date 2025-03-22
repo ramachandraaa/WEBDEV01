@@ -3,12 +3,12 @@
 <head>
 <link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css
 " rel="stylesheet">
-<title>MY First HTML Page-ToDos</title>
+<title>ToDos</title>
 </head>
 
 <body>
 <div class ="container">
-<h2 >YOUR TODOS </h2>
+<h2 >Enter Todo details </h2>
 
 
 <table class="table">

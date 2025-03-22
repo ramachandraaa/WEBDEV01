@@ -11,7 +11,7 @@ static
 {
 	todos.add(new Todo(1,"Ramachandra","Learn WEB",false,LocalDate.now().plusYears(1)));
 	todos.add(new Todo(2,"Ramachandra","Learn Devops",false,LocalDate.now().plusYears(2)));
-	todos.add(new Todo(3,"Ramachandra","Learn WEBDEV",false,LocalDate.now().plusYears(3)));
+	todos.add(new Todo(3,"Ramachandra","Learn WEBDEV",false,LocalDate.now()));
 }
 
 /*public Todo findbyID(int id)
